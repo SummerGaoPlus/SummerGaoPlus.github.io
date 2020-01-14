@@ -118,3 +118,8 @@
     color: #3eaf7c;
     border-left-color: #3eaf7c;
 }
+
+/*修改v-dialog-toast出现滚动条问题*/
+div.v-dialog-toast div.v-dialog-body {
+    overflow: hidden !important;
+}
